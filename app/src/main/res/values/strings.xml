@@ -47,6 +47,10 @@
     <string name="settings_theme_light">Light</string>
     <string name="settings_theme_auto">Automatic</string>
 
+    <string name="settings_sd_card">Use SD card for storage</string>
+    <string name="settings_sd_card_explanation">Stores server files on your SD card. Files are not transferred between internal and SD storage.</string>
+    <string name="settings_sd_card_running">Please stop the server before changing the storage location</string>
+
     <string name="settings_download_host">Download Server</string>
     <string name="settings_download_host_summary">The server from which Cuberite will download from. If you are running your own (automated) builds, you can change this setting and Cuberite will use your own server. Please note, that in order to have working automatic updates, the server needs to provide valid SHA-1 files.</string>
 

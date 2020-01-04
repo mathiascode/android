@@ -45,10 +45,11 @@ public class InstallService extends IntentService {
 
     public static String getPreferredABI() {
         String abi;
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             abi = Build.SUPPORTED_ABIS[0];
-        else
+        } else {
             abi = Build.CPU_ABI;
+        }
 
         Log.d(LOG, "Getting preferred ABI: " + abi);
 
